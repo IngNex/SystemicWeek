@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <title>SystemicWeek</title>
+    <link rel="icon" href="assets/img/logo/sw_logo.png" sizes="32x32" type="image/png">
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/sheetslider.min.css"/>
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function (event) {
+			var scrollTop = $(window).scrollTop();
+			if (scrollTop >= 10) {
+				document.getElementById('menu').style.background = 'linear-gradient(150deg, #050221 0%, var(--primary-color) 100%)';
+				document.getElementById('menu').style.transition = '.5s';
+			}
+			if (scrollTop < 10) {
+				document.getElementById('menu').style.background = 'transparent';
+				document.getElementById('menu').style.transition = '.5s';
+			}
+		});
+	</script>
+</head>
+<body>
+    <div class="side-bar"  id="menu-overlay">
+        <div class="menu">
+			<div><center><a href="https://tdiperu.com">
+                <img src="assets/img/logo/sw_logo.png" alt="Logotipo" height="100">
+            </a></center></div>
+            <div class="item"><a href="index.html"><i class="icon-home"></i>Inicio</a></div>
+            <div class="item"><a href="cursos.php"><i class="icon-graduation-cap"></i>Reinado</a></div>
+            <div class="item"><a href="workshops.php"><i class="icon-gift-1"></i>Comparsa</a></div>
+            <!-- <div class="item"><a style="display:flex;" href="lives.php"><i class="icon-videocam-1"></i><p class="parpadeo">Lives</p></a></div>
+            <div class="item"><a href="nosotros.php"><i class="icon-users-1"></i>Equipo</a></div> -->
+            <div class="item"><a href="comparsa.html"><i class="icon-doc-text-inv"></i>Juegos Deportivos</a></div>
+            <div class="item"><a href="trabaja-con-nosotros.php"><i class="icon-suitcase-1"></i>Guinkana</a></div>
+            
+        </div>
+    </div>
+    <div id="toogleIcon" onclick="menuToogle()"></div>
+    <nav class="menu" id="menu">
+        <div class="contenedor">
+            <a href="#" class="seccion-a">
+                <img src="assets/img/logo/sw_logo.png" alt="Logotipo">
+                <h1>SystemicWeek</h1>
+            </a>
+        </div>
+    </nav>
+    <div class="sheetSlider sh-default sh-auto">
+		<input id="s1" type="radio" name="slide1" checked />
+		<input id="s2" type="radio" name="slide1" />
+		<input id="s3" type="radio" name="slide1" />
+		<input id="s4" type="radio" name="slide1" />
+		<input id="s5" type="radio" name="slide1" />
+		<input id="s6" type="radio" name="slide1" />
+		<div class="sh__content">
+			<div class="sh__item">
+				<div class="back a"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+			<div class="sh__item">
+				<div class="back b"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+			<div class="sh__item">
+				<div class="back c"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+			<div class="sh__item">
+				<div class="back d"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+			<div class="sh__item">
+				<div class="back e"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+			<div class="sh__item">
+				<div class="back f"></div>
+				<div class="sh__meta">
+			  </div>
+			</div>
+		</div>
+		<div class="sh__btns">
+			<label for="s1"></label>
+			<label for="s2"></label>
+			<label for="s3"></label>
+			<label for="s4"></label>
+			<label for="s5"></label>
+			<label for="s6"></label>
+		</div>
+		<div class="sh__arrows">
+			<label for="s1"></label>
+			<label for="s2"></label>
+			<label for="s3"></label>
+			<label for="s4"></label>
+			<label for="s5"></label>
+			<label for="s6"></label>
+		</div>
+		<button class="sh-control"></button>
+	</div>
+	<h1 class="titulo">SEMANA SISTÉMICA DE LA EPIS 2022</h1>
+	<h1 class="titulo">Organizada por:</h1>
+	<section class="orientacion">
+		<div class="contenedor">
+			<div class="title"><h1>Universidad</h1></div>
+			<div class="img">
+				<img src="assets/img/orga/1.jpg" alt="Foto de César Cárdenas">
+			</div>
+			<h2>Universidad Nacional de Cañete</h2>
+			<h3>UNDC</h3>
+			<div class="links">
+				<a href="#">Lima - Cañete</a>
+			</div>
+			<div class="links">
+				<a href="#">San Vicente de Cañete</a>
+			</div>
+			<div class="btn">
+				<a target="_blank" href="https://portal.undc.edu.pe/">MAS INFORMACIÓN</a>
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="title"><h1>FACULTADAD</h1></div>
+			<div class="img">
+				<img src="assets/img/orga/2.jpg" alt="Foto de Kevin Sánchez">
+			</div>
+			<h2>Ingenieria de Sistemas</h2>
+			<h3>UNDC - EPIS</h3>
+			<div class="links">
+				<a href="#">Escuela Profesional de</a>
+			</div>
+			<div class="links">
+				<a href="#">Ingenieria de Sistemas</a>
+			</div>
+			<div class="btn">
+				<a target="_blank" href="https://portal.undc.edu.pe/ingenieria-de-sistemas/">MAS INFORMACIÓN</a>
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="title"><h1>CICLO</h1></div>
+			<div class="img">
+				<img src="assets/img/orga/3.jpg" alt="Foto de Jhonny Quispe">
+			</div>
+			<h2>Alumnos del X Ciclo</h2>
+			<h3>TURNO "A" - "B"</h3>
+			<div class="links">
+				<a href="#">Semana Sistemica</a>
+			</div>
+			<div class="links">
+				<a href="#">1° Iniciativa</a>
+			</div>
+			<div class="btn">
+				<a target="_blank" href="https://www.facebook.com/profile.php?id=100086568497462">MAS INFORMACIÓN</a>
+			</div>
+		</div>
+	</section>
+	<h1 class="titulo">Eventos de la Semana Sistémica</h1>
+	<section class="beneficios">
+		<div class="item">
+			<div>
+				<img src="assets/img/svg/001.svg" alt="Bautizo">
+			</div>
+			<h2>Bautizo UNDC</h2>
+			<p>Nuestro equipo de atención al cliente está disponible para atender cualquier duda.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/svg/002.svg" alt="Reinado">
+			</div>
+			<h2>Reinado</h2>
+			<p>Acceso al 100% a nuestros materiales de clase y herramientas de desarrollo alojadas en la nube.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/svg/003.svg" alt="Comparsa">
+			</div>
+			<h2>Comparsa</h2>
+			<p>Al finalizar cada workshop se otorga un certificado validando el aprendizaje obtenido.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/svg/004.svg" alt="Ginkana">
+			</div>
+			<h2>Ginkana</h2>
+			<p>Recuerda lo que hicimos en clase estés donde estés y a la hora que desees.</p>
+		</div>
+	</section>
+	<h1 class="titulo">Detalles de la Semana Sistémica</h1>
+	<section class="detalles">
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Reinado EPIS 2022</h1>
+				<p><span class="icon-ok"></span>&nbsp;Ser alumno(a) del semestre académico 2022-II</p>
+				<p><span class="icon-ok"></span>&nbsp;Presentación de coreografía en traje de opening.</p>
+				<p><span class="icon-ok"></span>&nbsp;Desfile en traje de opening.</p>
+				<p><span class="icon-ok"></span>&nbsp;Presentación de talento.</p>
+				<a href="#">Ver todo del reinado</a>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/event/reinado.svg" alt="Reinado EPIS">
+			</div>
+		</section>
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Comparsa EPIS 2022</h1>
+				<p><span class="icon-ok"></span>&nbsp;Todos los participantes deben ir uniformados</p>
+				<p><span class="icon-ok"></span>&nbsp;Banderola que indique el ciclo y un mensaje representativo a la carrera.</p>
+				<p><span class="icon-ok"></span>&nbsp;La sección debe tener una mascota representativa de la
+					carrera.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se tomará en cuenta la puntualidad dentro del puntaje..</p>
+				<a href="#">Ver todos de la Comparsa</a>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/event/comparsa.svg" alt="Comparsa EPIS">
+			</div>
+		</section>
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Gynkana EPIS 2022</h1>
+				<p><span class="icon-ok"></span>&nbsp;Deportes Colectivos</p>
+				<p><span class="icon-ok"></span>&nbsp;Juegos Colectivos.</p>
+				<p><span class="icon-ok"></span>&nbsp;Premios de los juegos.</p>
+				<p><span class="icon-ok"></span>&nbsp;Participación entre todos los ciclos.</p>
+				<a href="#">Ver todo de la Gynkana</a>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/event/gynkana.svg" alt="Gynkana EPIS">
+			</div>
+		</section>
+	</section>
+    <footer>
+		<div class="seccion-a">
+			<div class="colum">
+				<h2>1° Iniciativa</h2>
+				<a href="#">UNDC</a>
+				<a href="#">FACULTADA DE INGENIERIA</a>
+				<a href="#">UNDC - EPIS</a>
+				<a href="#">CICLO X</a>
+			</div>
+			<div class="colum">
+				<h2>Eventos</h2>
+				<a href="#">Bautizo de Cachimbo</a>
+				<a href="#">Rifa Semana Sistemica</a>
+				<a class="parpadeo" href="#">Reinado</a>
+				<a href="#">Gynkana</a>
+			</div>
+			<div class="colum">
+				<h2>Enlaces de Ayuda</h2>
+				<a href="#">Bases Competitivas</a>
+				<a href="#">Premios del Evento</a>
+				<a href="#">Políticas de Privacidad</a>
+				<a href="#">Términos y Condiciones</a>
+				
+			</div>
+			<div class="colum">
+				<h2>Semana Sistemica</h2>
+				<h3>Valida y comparte la información de nuestro FAN PAGE - FACEBOOK.</h3>
+				<a href="https://www.facebook.com/profile.php?id=100086568497462">SEMANA SISTEMICA</a>
+			</div>
+		</div>
+		<div class="seccion-b">
+			<div class="item-a">
+				<a href="#">
+					<img src="assets/img/logo/sw_logo.png" alt="Logotipo">
+					<h1>SystemicWeek</h1>
+				</a>
+				<h3>Aumentar la participación</h3>
+			</div>
+			<div class="item-b">
+				<a target="_blank" href="https://www.facebook.com/profile.php?id=100086568497462"><span class="icon-facebook"></span></a>
+				<a target="_blank" href="#"><span class="icon-mail-alt"></span></a>
+				<a target="_blank" href="https://api.whatsapp.com/send?phone=+51951528055&text=Hola,%20somos%20El%20Equipo%20Semana%20Sistemica%20En%que%20te%20podemos%20ayudar%20?"><span class="icon-wspt"></span></a>
+				<a target="_blank" href="#"><span class="icon-youtube-play"></span></a>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/sheetslider.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+	  slidesPerView: 3,
+      slidesPerGroup: 3,
+      loop: true,
+	  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.icon-down-dir').toggleClass('rotate');
+      });
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+      });
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
+      });
+    });
+</script>
+</html>
