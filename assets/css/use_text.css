@@ -1,0 +1,160 @@
+.title-blog{
+    width: 70%;
+    margin: auto;
+    margin-top: 110px;
+    margin-bottom: 50px;
+}
+/*.menu{
+    background-color: #0984e3;
+}*/
+a:hover{
+    font-weight: bold;
+    transition: .3s;
+}
+.contenido{
+    width: 70%;
+    max-width: 1500px;
+    margin: auto;
+}
+.contenido h2{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+.contenido h2 span{
+    font-weight: bold;
+}
+.contenido .autor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 10px;
+}
+.contenido .autor img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.contenido .autor h2{
+    margin: auto;
+    margin-left: 10px;
+}
+.contenido .keys{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-bottom: 10px;
+}
+.contenido .keys h3{
+    cursor: pointer;
+    font-size: .8rem;
+    background-color: #0984e3;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin: auto;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contenido .parrafo{
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+.contenido ul{
+    list-style: none;
+}
+.contenido ul li{
+    margin-bottom: 10px;
+}
+.contenido .icon-ok{
+    color: #0984e3;
+    font-size: .9rem;
+}
+.contenido ul li a{
+    color: #000;
+    transition: .3s;
+    font-size: 1rem;
+}
+.contenido .banner{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contenido .banner img{
+    width: 50%;
+}
+.contenido .cabecera{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.compartir{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+.copi{
+    background-color: #0984e3;
+    font-size: .8rem;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.copi:hover{
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: .3s;
+}
+.copi:hover span{
+    color: #ff0808;
+}
+@media screen and (max-width:1170px){
+    .contenido .keys{
+        grid-template-columns: 33% 33% 33%;
+    }
+    .contenido .keys h3{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:800px){
+    .contenido{
+        width: 95%;
+    }
+}
+@media screen and (max-width:550px){
+    .contenido .keys{
+        grid-template-columns: 50% 50%;
+    }
+    .contenido .banner img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:400px){
+    .contenido .banner img{
+        width: 100%;
+    }
+    .title-blog{
+        width: 95%;
+    }
+}
+@media screen and (max-width:340px){
+    .contenido .keys{
+        grid-template-columns: 100%;
+    }
+}

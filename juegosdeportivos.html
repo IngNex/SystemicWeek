@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <title>SysWeek | Deporte</title>
+    <link rel="icon" href="assets/img/logo/sw_logo.png" sizes="32x32" type="image/png">
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="assets/css/use_text.css">
+	<link rel="stylesheet" href="assets/css/sheetslider.min.css"/>
+	<link rel="stylesheet" href="assets/fontawesome/css/fontawesome.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/brands.css">
+	<link rel="stylesheet" href="assets/fontawesome/css/solid.css">
+	<script src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(window).scroll(function (event) {
+			var scrollTop = $(window).scrollTop();
+			if (scrollTop >= 10) {
+				document.getElementById('menu').style.background = 'linear-gradient(150deg, #050221 0%, var(--primary-color) 100%)';
+				document.getElementById('menu').style.transition = '.5s';
+			}
+			if (scrollTop < 10) {
+				document.getElementById('menu').style.background = 'transparent';
+				document.getElementById('menu').style.transition = '.5s';
+			}
+		});
+	</script>
+</head>
+<body>
+	<!----=================== Start Siderbar ====================---->
+    <div class="side-bar"  id="menu-overlay">
+        <div class="menu">
+			<div><center><a href="index.html">
+                <img src="assets/img/logo/sw_logo.png" alt="Logotipo" height="100">
+				
+            </a></center>
+			<br>
+			</div>
+            <div class="item"><a href="index.html"><i class="fa-solid fa-house-chimney-window"></i>Inicio</a></div>
+            <div class="item"><a href="reinado.html"><i class="fa-solid fa-crown"></i>Reinado</a></div>
+            <div class="item"><a href="comparsa.html"><i class="fa-solid fa-drum"></i>Comparsa</a></div>
+            <div class="item"><a href="juegosdeportivos.html"><i class="fa-solid fa-futbol"></i>Juegos Deportivos</a></div>
+            <div class="item"><a href="guinkana.html"><i class="fa-solid fa-dice"></i>Guinkana</a></div>
+        </div>
+    </div>
+	<!----=================== End Siderbar ====================---->
+
+	<!----=================== Start Menu ====================---->
+    <div id="toogleIcon" onclick="menuToogle()"></div>
+    <nav class="menu" id="menu">
+        <div class="contenedor">
+            <a href="index.html" class="seccion-a">
+                <img src="assets/img/logo/sw_logo.png" alt="Logotipo">
+                <h1>SystemicWeek</h1>
+            </a>
+        </div>
+    </nav>
+	<!----=================== End Menu ====================---->
+
+	<!----=================== Start Titulo Event ====================---->
+	<h1 class="titulo">JUEGOS DEPORTIVOS DE LA EPIS 2022</h1>
+	<center>
+		<section class="detalles">
+			<section class="contenedor">
+				<div class="seccion-b">
+					<img src="assets/img/banners/deporte/deportes.svg" alt="Comparsa EPIS">
+				</div>
+			</section>
+		</section>
+	</center>
+	<section class="contenido">
+		<p class="parrafo">La Universidad Nacional de Cañete busca promover el desarrollo de
+			actividades que involucren a todos los estudiantes de la escuela de Ingeniería
+			de sistemas y así afianzar los vínculos de hermandad, colaboración entre los
+			alumnos de cada ciclo, cooperación entre todos y buenas relaciones
+			interpersonales. Las competencias de la semana sistemática serán alegres,
+			satisfactorias, sociales, liberadoras y con valores.</p>
+		<p class="parrafo">Las actividades que se presentarán en la semana sistemática tienen como
+			objetivo fomentar la participación de los universitarios para así incentivar el
+			trabajo en equipo entre los alumnos y la competencia sana entre ellos.</p>
+	</section>
+	<!----=================== End Titulo Event ====================---->
+<!----=================== Start Info - Image ====================---->
+	<h1 class="titulo">Bases de los Deportes Colectivos</h1>
+	<section class="detalles">
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Voley Mixto:</h1>
+				<p><span class="icon-ok"></span>&nbsp;En campo estarán 6 jugadores (3 mujeres y 3 hombres)</p>
+				<p><span class="icon-ok"></span>&nbsp;Se solicitará la Ficha de inscripción.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se jugarán dos sets de veinticinco (20) puntos c/u x 10min.</p>
+				<p><span class="icon-ok"></span>&nbsp;Los encuentros serán eliminatorios.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se sorteará el orden y contrincantes de cada equipo.</p>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/banners/deporte/23.svg" alt="Primera etapa">
+			</div>
+		</section>
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Futsal Varones:</h1>
+				<p><span class="icon-ok"></span>&nbsp;Número de participantes será de 10 sin reemplazos.</p>
+				<p><span class="icon-ok"></span>&nbsp;Requisito para el encuentro es tener la ficha de inscripción.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se tendrá como tiempo máximo de 25 minutos por encuentro.</p>
+				<p><span class="icon-ok"></span>&nbsp;Los encuentros serán eliminatorios.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se sorteará el orden y contrincantes de cada equipo.</p>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/banners/deporte/22.svg" alt="Primera etapa">
+			</div>
+		</section>
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Ajedrez:</h1>
+				<p><span class="icon-ok"></span>&nbsp;Participarán 2 estudiantes varones y/o mujeres de cada aula.</p>
+				<p><span class="icon-ok"></span>&nbsp;Se pedirá la ficha con el nombre de los participantes.</p>
+				<p><span class="icon-ok"></span>&nbsp;Duración por partida entre 10 a 60 minutos</p>
+				<p><span class="icon-ok"></span>&nbsp;El mismo día se hará un sorteo para conocer los enfrentamientos</p>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/banners/deporte/21.svg" alt="Primera etapa">
+			</div>
+		</section>
+		<section class="contenedor">
+			<div class="seccion-a">
+				<h1>Puntajes por juego:</h1>
+				<p><span class="icon-ok"></span>&nbsp;1° Lugar por juego 50 puntos</p>
+				<p><span class="icon-ok"></span>&nbsp;2° Lugar por juego 40 puntos</p>
+				<p><span class="icon-ok"></span>&nbsp;3° Lugar por juego 30 puntos</p>
+			</div>
+			<div class="seccion-b">
+				<img src="assets/img/banners/comparsa/9.svg" alt="Primera etapa">
+			</div>
+		</section>
+	</section>
+	<!----=================== End Info - Image ====================---->
+	
+	<h1 class="titulo">Todos los equipos deben:</h1>
+
+	<!----=============== Start Cards Info - SVG ================----->
+	<section class="beneficios">
+		<div class="item">
+			<div>
+				<img src="assets/img/banners/quinkana/17.svg" alt="Grupal">
+			</div>
+			<h2>Divertirse</h2>
+			<p>La diversión genera relación con otros equipos para que todo se sientan muy bien.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/banners/quinkana/20.svg" alt="Individual">
+			</div>
+			<h2>Ganar</h2>
+			<p>El objetvio es ganar pero sin perder el lado humano para que todos se puedan entender.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/banners/quinkana/19.svg" alt="Talentp">
+			</div>
+			<h2>Amistad</h2>
+			<p>Los juegos generan nuevas amistades y desenvolverse entre la sociedad.</p>
+		</div>
+		<div class="item">
+			<div>
+				<img src="assets/img/banners/quinkana/18.svg" alt="Gala">
+			</div>
+			<h2>Trabajo en equipo</h2>
+			<p>Emplea la sinergia como equipo para que la meta sea mucho mas rapido de lograr.</p>
+		</div>
+	</section>
+	<!----=============== End Cards Info - SVG ================----->
+
+	<!----=================== Start Cards Data - Image ====================---->
+	<h1 class="titulo">Premiación de los Deportes Colectivos:</h1>
+	<section class="orientacion">
+		<div class="contenedor">
+			<div class="title"><h1>EPIS UNDC - 2022</h1></div>
+			<div class="img">
+				<img src="assets/img/banners/comparsa/1puesto.svg" alt="1° puesto">
+			</div>
+			<h2>1° Puesto</h2>
+			<h2>150 Puntos</h2>
+			<h3>Trofeo</h3>
+			<div class="links">
+				<a href="#">Incentivo Economico</a>
+			</div>
+			<div class="links">
+				<a href="#">1° Ganador 2022</a>
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="title"><h1>EPIS UNDC - 2022</h1></div>
+			<div class="img">
+				<img src="assets/img/banners/comparsa/2puesto.svg" alt="2° puesto">
+			</div>
+			<h2>2° Puesto</h2>
+			<h2>120 Puntos</h2>
+			<h3>Trofeo</h3>
+			<div class="links">
+				<a href="#">Incentivo Economico</a>
+			</div>
+			<div class="links">
+				<a href="#">2° Ganador 2022</a>
+			</div>
+		</div>
+		<div class="contenedor">
+			<div class="title"><h1>EPIS UNDC - 2022</h1></div>
+			<div class="img">
+				<img src="assets/img/banners/comparsa/3puesto.svg" alt="3° puesto">
+			</div>
+			<h2>3° Puesto</h2>
+			<h2>90 Puntos</h2>
+			<h3>Trofeo</h3>
+			<div class="links">
+				<a href="#">Incentivo Economico</a>
+			</div>
+			<div class="links">
+				<a href="#">3° Ganador 2022</a>
+			</div>
+		</div>
+	</section>
+	<!----=================== End Cards Data - Image ====================---->
+	<!----=================== Start Footer ====================---->
+    <footer>
+		<div class="seccion-a">
+			<div class="colum">
+				<h2>1° Iniciativa</h2>
+				<a href="#">UNDC</a>
+				<a href="#">FACULTADA DE INGENIERIA</a>
+				<a href="#">UNDC - EPIS</a>
+				<a href="#">CICLO X</a>
+			</div>
+			<div class="colum">
+				<h2>Eventos</h2>
+				<a href="#">Bautizo de Cachimbo</a>
+				<a href="#">Rifa Semana Sistemica</a>
+				<a class="parpadeo" href="#">Reinado</a>
+				<a href="#">Gynkana</a>
+			</div>
+			<div class="colum">
+				<h2>Enlaces de Ayuda</h2>
+				<a href="#">Bases Competitivas</a>
+				<a href="#">Premios del Evento</a>
+				<a href="#">Políticas de Privacidad</a>
+				<a href="#">Términos y Condiciones</a>
+				
+			</div>
+			<div class="colum">
+				<h2>Semana Sistemica</h2>
+				<h3>Valida y comparte la información de nuestro FAN PAGE - FACEBOOK.</h3>
+				<a href="https://www.facebook.com/profile.php?id=100086568497462">SEMANA SISTEMICA</a>
+			</div>
+		</div>
+		<div class="seccion-b">
+			<div class="item-a">
+				<a href="#">
+					<img src="assets/img/logo/sw_logo.png" alt="Logotipo">
+					<h1>SystemicWeek</h1>
+				</a>
+				<h3>Aumentar la participación</h3>
+			</div>
+			<div class="item-b">
+				<a target="_blank" href="https://www.facebook.com/profile.php?id=100086568497462"><span class="icon-facebook"></span></a>
+				<a target="_blank" href="#"><span class="icon-mail-alt"></span></a>
+				<a target="_blank" href="https://api.whatsapp.com/send?phone=+51951528055&text=Hola,%20somos%20El%20Equipo%20Semana%20Sistemica%20En%que%20te%20podemos%20ayudar%20?"><span class="icon-wspt"></span></a>
+				<a target="_blank" href="#"><span class="icon-youtube-play"></span></a>
+			</div>
+		</div>
+	</footer>
+	<!----=================== End Footer ====================---->
+</body>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/sheetslider.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+	  slidesPerView: 3,
+      slidesPerGroup: 3,
+      loop: true,
+	  autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('.sub-btn').click(function(){
+        $(this).next('.sub-menu').slideToggle();
+        $(this).find('.icon-down-dir').toggleClass('rotate');
+      });
+      $('.menu-btn').click(function(){
+        $('.side-bar').addClass('active');
+        $('.menu-btn').css("visibility", "hidden");
+      });
+      $('.close-btn').click(function(){
+        $('.side-bar').removeClass('active');
+        $('.menu-btn').css("visibility", "visible");
+      });
+    });
+</script>
+</html>

@@ -41,7 +41,7 @@ a {
 	transform: rotate(-90deg);
 }
 .parpadeo{
-    color: #0F3460 !important;/*#d63031*/
+    color: #3321FF !important;/*#d63031*/
 	font-weight: bold;
     animation-name: parpadeo;
     animation-duration: 1s;
@@ -165,13 +165,13 @@ a {
     height: 38px;
     border-radius: 38px;
     top: 11px;
-    background: transparent url(../img//icons/0025.png);
+    background: transparent url(../img/icons/menu_I.png);
     cursor: pointer;
     transition: .5s ;
     z-index: 100000000000000000000000000000000000000000000000000000000000000000000000;
 }
 #toogleIcon.active{
-    background: transparent url(../img/icons/0024.png);
+    background: transparent url(../img/icons/cancel.png);
     transition: .5s ;
     z-index: 100000000000000000000000000000000000000000000000000000000000000000000000;
 }
